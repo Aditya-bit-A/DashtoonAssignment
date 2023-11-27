@@ -1,0 +1,118 @@
+body{
+  background-image: url("https://wallpaperaccess.com/full/925536.jpg");
+}
+
+#root {
+  padding: 0px 0px 0px 0px; /* Adjust the padding value as needed */
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 0px 0px 0px 0px;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+.left-side {
+  margin-top: 30px;
+  margin-left: 30px;
+  flex: 0 0 30%; /* Flex property to take up 30% of the width */
+  /* Example background color for the left side */
+  
+}
+
+.right-side {
+  padding: 20px;
+  margin: 10px 0px 0px 0px;
+  flex: 0 0 70%; /* Flex property to take up 70% of the width */
+  /* Example background color for the right side */
+  
+}
+.mid_body {
+  background-color: rgba(241, 241, 241, 0.131);
+  margin: 0px;
+  margin-top: 10px;
+  padding: 0px; 
+  display: flex;
+  border: rgb(157, 157, 230) solid;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.scroll-container {
+  width: 350px;
+  height: 200px;
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #6a11cb;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /*background: linear-gradient(to right, rgba(107, 17, 203, 0.53),rgba(37, 116, 252, 0.517)));*/
+}
